@@ -10,8 +10,11 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: url(../img/bakery-img-1.jpg);
+      background-image: url(../img/bakery-img-1-mobile.jpg);
       background-size: cover;
+      @media (min-width: $phone) {
+        background-image: url(../img/bakery-img-1.jpg);
+      }
     }
     &__img {
       height: 100%;
@@ -24,9 +27,12 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: url(../img/bakery-img-2.jpg);
+      background-image: url(../img/bakery-img-2-mobile.jpg);
       background-size: cover;
       background-position: center;
+      @media (min-width: $phone) {
+        background-image: url(../img/bakery-img-2.jpg);
+      }
     }
     &__part-3{
       position: absolute;
@@ -35,10 +41,12 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: url(../img/bakery-img-3.jpg);
+      background-image: url(../img/bakery-img-3-mobile.jpg);
       background-size: cover;
       background-position: center;
-      // visibility: hidden;
+      @media (min-width: $phone) {
+        background-image: url(../img/bakery-img-3.jpg);
+      }
     }
     &__part-4{
       position: absolute;
@@ -47,8 +55,11 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: url(../img/bakery-img-4.jpg);
+      background-image: url(../img/bakery-img-4-mobile.jpg);
       background-size: cover;
+      @media (min-width: $phone) {
+        background-image: url(../img/bakery-img-4.jpg);
+      }
     }
     &__part-5{
       position: absolute;
